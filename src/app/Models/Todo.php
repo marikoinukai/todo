@@ -13,6 +13,6 @@ class Todo extends Model
             'content'];
         public function category()
    {
-       return $this->belongsTo(Category::class);
+        return $this->belongsTo(Category::class);
    }
 }
